@@ -39,49 +39,49 @@ const events = [
         },
     },
 
-    {
-        eventId: 'roborace',
-        eventName: 'Roborace',
-        eventDate: {
-            prelims: ['TBD'],
-            finals: 'TBD',
-        },
-        eventPoster: '/images/events/ROBORACE.png',
-        eventType: `circuits & robotics`,
-        eventHashtags: ['miniF1', 'racetoglory'],
-        eventCoordinators: [
-            'Hrishitava Sarkar [ 9749513213 ]',
-            'Hritam Sarkar [ 8777262351 ]',
-            'Rumel Alam [ 8240998026 ]',
-        ],
-        minMembers: 2,
-        maxMembers: 4,
-        registrationType: `Srijan'24 Website`,
-        prize: ['Certificates and prize pool of Rs.2000'],
-        eventShortDescription: `Roborace: Mini F1-like event where small bots compete autonomously on a track, showcasing cutting-edge racing technology`,
-        eventDescription: [
-            `Roborace is a thrilling event where pint-sized bots navigate a track autonomously, resembling a scaled-down version of Formula 1 racing. These small yet mighty machines showcase cutting-edge technology as they speed through twists and turns without human intervention. Spectators witness the future of motorsports unfold as these robotic competitors push the limits of agility and precision, offering a glimpse into the potential of autonomous driving in high-speed environments.`,
-        ],
-        eventRules: {
-            ' ': [
-                '2 columns of bots will be placed (just like an F1 race). There will be a lucky draw as to determine their starting positions.',
-                'Round(s) will be a race of 8-10 bots on a track on the road. The one who finishes first will get 300points, 2nd 200, 3rd 100. Subsequent bots will get points as [(Total bots – position finished)/(total bots)]* 100. ',
-                'If a bot moves out of the track it will get -30. No driver will be allowed to enter the track. If so then their bot will get -50.',
-                'A bonus of 75 points will be awarded to the most innovative bot.',
-                'The bot with max points will be the winner.',
-                'No power supply will be provided. Connection between the bot and controller may be wired or wireless. Wire must be slack at all times.',
-                'Bot dimensions: Max size is 30cm*30cm*30cm',
-                'Max weight: 4kg',
-                'Max voltage: 24V',
-                'Bot with sharp objects attached or with dead weight will be disqualified',
-                'Total track width will be 2m',
-            ],
+    // {
+    //     eventId: 'roborace',
+    //     eventName: 'Roborace',
+    //     eventDate: {
+    //         prelims: ['TBD'],
+    //         finals: 'TBD',
+    //     },
+    //     eventPoster: '/images/events/ROBORACE.png',
+    //     eventType: `circuits & robotics`,
+    //     eventHashtags: ['miniF1', 'racetoglory'],
+    //     eventCoordinators: [
+    //         'Hrishitava Sarkar [ 9749513213 ]',
+    //         'Hritam Sarkar [ 8777262351 ]',
+    //         'Rumel Alam [ 8240998026 ]',
+    //     ],
+    //     minMembers: 2,
+    //     maxMembers: 4,
+    //     registrationType: `Srijan'24 Website`,
+    //     prize: ['Certificates and prize pool of Rs.2000'],
+    //     eventShortDescription: `Roborace: Mini F1-like event where small bots compete autonomously on a track, showcasing cutting-edge racing technology`,
+    //     eventDescription: [
+    //         `Roborace is a thrilling event where pint-sized bots navigate a track autonomously, resembling a scaled-down version of Formula 1 racing. These small yet mighty machines showcase cutting-edge technology as they speed through twists and turns without human intervention. Spectators witness the future of motorsports unfold as these robotic competitors push the limits of agility and precision, offering a glimpse into the potential of autonomous driving in high-speed environments.`,
+    //     ],
+    //     eventRules: {
+    //         ' ': [
+    //             '2 columns of bots will be placed (just like an F1 race). There will be a lucky draw as to determine their starting positions.',
+    //             'Round(s) will be a race of 8-10 bots on a track on the road. The one who finishes first will get 300points, 2nd 200, 3rd 100. Subsequent bots will get points as [(Total bots – position finished)/(total bots)]* 100. ',
+    //             'If a bot moves out of the track it will get -30. No driver will be allowed to enter the track. If so then their bot will get -50.',
+    //             'A bonus of 75 points will be awarded to the most innovative bot.',
+    //             'The bot with max points will be the winner.',
+    //             'No power supply will be provided. Connection between the bot and controller may be wired or wireless. Wire must be slack at all times.',
+    //             'Bot dimensions: Max size is 30cm*30cm*30cm',
+    //             'Max weight: 4kg',
+    //             'Max voltage: 24V',
+    //             'Bot with sharp objects attached or with dead weight will be disqualified',
+    //             'Total track width will be 2m',
+    //         ],
 
-            Note: [
-                ' At any point the decision taken by the coordinators will be final',
-            ],
-        },
-    },
+    //         Note: [
+    //             ' At any point the decision taken by the coordinators will be final',
+    //         ],
+    //     },
+    // },
     {
         eventId: 'ieee-cypher',
         eventName: 'Cypher 3331',
@@ -162,7 +162,7 @@ const events = [
             finals: 'TBD',
         },
         eventType: 'coding',
-        eventHashtags: ['Competitive Programming', 'Brainstorming'],
+        eventHashtags: ['Competitive Programming', 'brainstorming'],
         eventCoordinators: [
             'Dibyabrata Panja [ 8509184415 ]',
             'Ayush Sharma [ 9874180842 ]',
@@ -351,6 +351,8 @@ const events = [
         eventDate: {
             prelims: ['TBD'],
             finals: 'TBD',
+            // prelims: ['20th March (8:00 pm - 9:00 pm)'],
+            // finals: '24th March (3:00 pm - 5:00 pm)',
         },
         eventType: 'coding',
         eventHashtags: ['coding', 'brainstorming'],
@@ -360,7 +362,7 @@ const events = [
             'Tanmay Roy [ 8101159941 ]',
         ],
         prize: ['Exciting prizes(TBD) for the top 3 winning teams'],
-        minMembers: 3,
+        minMembers: 2,
         maxMembers: 3,
         eventPoster: '/images/events/sherlocked.jpg',
         registrationType: `Srijan'24 Website`,
@@ -398,10 +400,10 @@ const events = [
         maxMembers: 3,
         eventPoster: '/images/events/math-e-magician.jpeg',
         registrationType: `Srijan'24 Website`,
-        eventShortDescription: `Prelims will consist of a Terrific Brainstorming Math Olympiad and the Fi- nals will be consisting of a Math Seminar to be organized by Finalists grouped in appropriate teams`,
+        eventShortDescription: `Prelims will consist of a Terrific brainstorming Math Olympiad and the Fi- nals will be consisting of a Math Seminar to be organized by Finalists grouped in appropriate teams`,
         eventDescription: [
             `There will be 2 events in the MATH-E-MAGICIAN.
-        Prelims will consist of a Terrific Brainstorming Math Olympiad and the Finals will be consisting of a Math Seminar to be organized by Finalists grouped in appropriate teams on the APPLICATIONS OF MATHEMATICS IN YOUR FAVOURITE ENGINEERING SCIENCE`,
+        Prelims will consist of a Terrific brainstorming Math Olympiad and the Finals will be consisting of a Math Seminar to be organized by Finalists grouped in appropriate teams on the APPLICATIONS OF MATHEMATICS IN YOUR FAVOURITE ENGINEERING SCIENCE`,
         ],
         eventRules: {
             '': [
@@ -553,7 +555,7 @@ const events = [
     //         finals: 'TBD',
     //     },
     //     eventType: 'Coding',
-    //     eventHashtags: ['Coding', 'BrainStorming'],
+    //     eventHashtags: ['Coding', 'brainstorming'],
     //     eventCoordinators: [
     //         'Anurag Jha [ 7044904397 ]',
     //         'Aditya Mayukh Som [ 9874745176 ]',
@@ -1159,6 +1161,7 @@ const events = [
         eventDescription: [
             `Rook 'N' Roll would be a competitive chess event. The Prelims would be hosted in online mode a week prior to Srijan, as a Swiss Tourament. Top 8 performers would move to the Knockout stage with the quarter finals, semi-finals and final taking place in offline mode throughtout the course of the fest on its very days.`,
         ],
+        groupLink: 'https://chat.whatsapp.com/BBGglTYHvDB8ZXd33aRS3d',
         eventRules: {
             '': [
                 'Properly move all of the chess pieces.',
@@ -1220,6 +1223,8 @@ const events = [
         eventDate: {
             prelims: ['TBD'],
             finals: 'TBD',
+            // prelims: ['19th March (7:30 pm - 9:30 pm)'],
+            // finals: '23th March (11:30 am - 2:00 pm)',
         },
         eventType: 'coding',
         eventHashtags: ['#Coding', '#TeamEvent', '#Competitive_Programming'],
@@ -1259,6 +1264,491 @@ const events = [
                 'Prize for the Best UG1 team will only be provided if there are at least 3 such competing teams in the finals.',
             ],
         },
+    },
+
+    {
+        eventId: 'logocity',
+        eventName: `Logocity`,
+        eventDate: {
+            prelims: ['TBD'],
+            finals: 'TBD',
+        },
+        eventType: 'Designing',
+        eventHashtags: ['LogoQuest', 'DesignBattle'],
+        eventCoordinators: [
+            'Nahir Md Nishad [ 8670509483 ]',
+            'Monoshwi Bandopadhay [ 96474993252 ]',
+            'Arka Sikdar [ 7980805318 ]',
+        ],
+        prize: ['Prize Pool of Rs. 1000'],
+        minMembers: 1,
+        maxMembers: 1,
+        eventPoster: '/images/events/logocity.png',
+        registrationType: `Srijan'24 Website`,
+        eventShortDescription: `Are your lecture notes interjected with doodles? Do you have flair of translating your ideas into images? Do you think you can identify the most elusive logos whenever you see them? Wait no more!  Srijan 2024 brings to you Logocity - where participants fire up their artistic geniuses and channel their aesthetic senses to craft the most impressive brand identities. Do you think you can capture your viewers with mere strokes of your pen? Then what are you waiting for? "Just do it!"`,
+        eventDescription: [
+            'Basically, this event has two stages, the first one will be a design submission round where the participants will be given a set of questions and criteria of design according to which they will be designing logos and after submission the panel of judges will be grading them accordingly. According to their score, the participants will progress to the next and final round which will be a quiz round where we will be asking them question and according to their answers the winners will be decided. The first round will be an online round whereas the final round will be in offline mode. The designing of the participants will be judged by their relevance, versatility, adherance and the aesthetic. ',
+        ],
+        eventRules: {
+            '': [
+                "Participants will be given points on the basis of relevance, versatility, adherence to design brief, how well the design is presented and the general look and feel of the design.",
+                "Participants need to submit their artwork along with the description in PDF or PNG format. Providing the source file (e.g., illustrator raw file) as proof of work will grant Bonus Points.",
+                "Any kind of Plagiarism will lead to Disqualification.",
+                "All shortlisted participants will have to appear for a quiz round on the day of finals at Jadavpur University Salt Lake Campus."
+            ],
+        },
+    },
+    {
+        eventId: 'ace-the-case',
+        eventName: `Ace The Case`,
+        eventDate: {
+            prelims: ['TBD'],
+            finals: 'TBD',
+        },
+        eventType: 'Business & Management',
+        eventHashtags: ['Case_Study', 'Problem_Solving'],
+        eventCoordinators: [
+            'Piyush Gupta [ 7439484942 ]',
+            'Raktim Banerjee [ 9569584047 ]',
+            'Souptik Dasgupta [ 9007475778 ]',
+        ],
+        prize: ['Exciting prizes for winners'],
+        minMembers: 1,
+        maxMembers: 3,
+        eventPoster: '/images/events/acethecase.png',
+        registrationType: `Srijan'24 Website`,
+        eventShortDescription: `Business case-study event to test everything, from your real-world problem solving to Pitching Skills, all under 24 hours!`,
+        eventDescription:[
+            "Do you have an astute proclivity for brainstorming and have a knack for finding solutions to problems?",
+            "We've got you covered!",
+            "Unleash your problem-solving prowess in 'Ace the Case'!",
+            "Hop in for a thrilling opportunity to analyze real-world challenges, develop innovative solutions, and showcase your strategic acumen.",
+            "Embrace the chance to network, interact, and rise to the challenge!"
+        ],
+        eventRules: {
+            '':[
+                "Join the Group links sent via emails beforehand to avoid the last-minute hassle.",
+                "The event is to be conducted in two rounds: Selection Round and Finale.",
+                "Prompts will be provided to you 2 days PRIOR to the event.",
+                "Strictly adhere to the slide limits in each Round."
+            ],
+            'Selection Round:': [
+                "Event to be Conducted Online",
+                "Each team needs to submit an Abstract Report of the case study provided to them within 24 hours.",
+                "The timer will start IMMEDIATELY as the Prompt Release is mailed/sent to the team.",
+                "Slide Limit: 1 SLIDE ONLY"
+            ],
+            'Finale':[
+                "Pitching Time is 4-5 mins",
+                "Judges Rebuttal time is 2-3 mins",
+                "Brownie points for sticking to the time limit.",
+                "Max. Slide limit: 4 Slides + 1 Slide for Team Name + 1 Concluding Slide",
+                "The Event details will be provided to you once you qualify the Selection Round."
+            ]
+        },
+    },
+    {
+        eventId: 'rap-beatbox',
+        eventName: `Rap battle and Beatbox`,
+        eventDate: {
+            prelims: ['TBD'],
+            finals: 'TBD',
+        },
+        eventType: 'Art and Culture',
+        eventHashtags: ['rapbattle', 'beatbox'],
+        eventCoordinators: [
+            'Sauptik maiti [ 6290366197 ]',
+            'Sayandeep Pramanik [ 7872639252 ]',
+        ],
+        prize: ['Exciting prizes for winners'],
+        minMembers: 1,
+        maxMembers: 1,
+        eventPoster: '/images/events/rapbattle.png',
+        registrationType: `Srijan'24 Website`,
+        eventShortDescription: `Rap Battle and Beatbox encourages everyone to showcase their rapping and beatboxing skills and battle it out with other participants.`,
+        eventDescription:[
+            "\"We sing for these kids who don't have a thing",
+            "Except for a dream and a f-ing rap magazine\"",
+            "- Sing For The Moment, Eminem",
+            "",
+            "Born out of house parties in 1970s South Bronx, Hip-hop has grown to be one of the most intricate and powerful artforms known to humanity. Today, Hip-Hop is a collection of several elements like rapping, graffiti art, deejaying, B-boying and Beatboxing.",
+            "With the popularity of the Hip-Hop culture rising and spreading like wildfire all over the world, we feel the need for providing aspiring MCs and beatboxers a platform for showcasing their talents, here at Srijan '24, JU.",
+            "",
+            "Sign up for one or both of the events Rap Battle and Beatbox and display your talent in form of a classic battle!"
+        ],
+        eventRules: {
+            'RAP BATTLE':[
+                "Registration for Rap Battle is open to any individual, college or otherwise.",
+                "This is an ON-STAGE competition.",
+                "This will be a SHOWCASE act of an original song and must be performed by the main artist only.",
+                "No hype man is allowed.",
+                "Each rapper is allowed a maximum of 2 minutes +/- 30 seconds, going beyond which will result in deduction of points.",
+                "Backing tracks will be allowed but no backing vocals should be present in the track.",
+                "The language of rap can be English, Hindi, and Bengali only."
+            ],
+            'Disqualification Criteria': [
+                "Any form of ghostwriting will lead to immediate disqualification.",
+                "Points will be awarded for performance and lyrical relevance, along with skillful use of rhyming schemes, punchlines, and flow.",
+                "Any form of cussing or usage of foul language in lyrics will result in immediate disqualification."
+            ],
+            'BEATBOXING':[
+                "Participants have to give solo beatbox performances on stage.",
+                "Participants will be given 1 minute +- 20sec.",
+                "Single-hand mike will be made available for the performance.",
+                "Participants may use a backing track brought by them in a pen drive (not compulsory).",
+                "Performers will be judged on the following criteria:-",
+                "  a. Originality",
+                "  b. Sense of Beats/Music",
+                "  c. Variation of beats",
+                "  d. Variety of sound",
+                "  e. Connect to the audience/Entertaining",
+                "Disqualification criteria:-",
+                "  a. Use of slang and cuss words.",
+                "  b. Misbehaving with judges, coordinators, and volunteers.",
+                "  c. Damaging of University Property"
+            ]
+        },
+    },
+    {
+        eventId: 'treasure-hunt',
+        eventName: `Treasure Hunt`,
+        eventDate: {
+            prelims: ['TBD'],
+            finals: 'TBD',
+        },
+        eventType: 'misc',
+        eventHashtags: ['srijan_24', 'tech_enthusiasts_assemble'],
+        eventCoordinators: [
+            'Dipan Mandal [ 8250821406 ]',
+            'Anushka Tewari [ 9348121371 ]',
+            'Soumyadip Ghosh [ 8116221973 ]',
+        ],
+        prize: ['Certificates and medals for winners'],
+        minMembers: 3,
+        maxMembers: 5,
+        eventPoster: '/images/events/treasurehunt.png',
+        registrationType: `Srijan'24 Website`,
+        eventShortDescription: `“Remember that wherever your heart is, there you will find your treasure. You’ve got to find the treasure, so that everything you have learned along the way can make sense.” - The Alchemist`,
+        eventDescription:[
+            "Here you are, adventurer, at the portal of your dreams.",
+            "In order to conjure your personal legend, in the land of Srijan '24, you must follow the omens we've left for you along the path.",
+            "",
+            "Set your gaze on your goal, and the entire universe will conspire in helping you to achieve it.",
+            "",
+            "The principle of favorability must be on your side, as this year's 'Treasure Hunt' makes its way to you."
+        ],
+        eventRules: {
+            '':[
+                "Each team must have at least 3 members and no more than 5 members (at least 1 girl and 1 boy) with at least one member being from Jadavpur University.",
+                "Teams must stay together during the Treasure Hunt and teamwork is encouraged to solve the clues and retrieve the coins from each location. Team members must have their phones with active internet connection and Whatsapp.",
+                "Each team will be given a clue at the beginning of the treasure hunt. It will be up to the teams to decipher the clues and safely acquire the next clue from each of the locations. Each clue once solved will lead you to a location where you would find a clue.",
+                "Upon reaching the location, teams need to perform the assigned task.",
+                "Teams will be scored based on completion of the assigned task and the amount of time taken. Once all clues are collected, teams must return to the finish in order to be counted as finished.",
+                "The Treasure Hunt begins at 1:00 pm. Clue will be distributed to team members at that time and may be opened, and the teams may start solving the clues and begin their “Treasure Hunt”."
+            ]
+        },
+    },
+
+    {
+        eventId: 'data-drive',
+        eventName: 'Data Drift',
+        eventDate: {
+            prelims: ['TBD'],
+            finals: 'TBD',
+        },
+        eventType: 'Data Analytics',
+        eventHashtags: ['TrafficInsights', 'SmartMobilityAnalytics'],
+        eventCoordinators: [
+            'Sudipta Dutta [ 9641141392 ]',
+            'Gaurav Bose [ 8017469943 ]',
+            'Shrobona De [ 9163821724 ]',
+        ],
+        prize: ['Prize pool of Rs. 2000'],
+        minMembers: 1,
+        maxMembers: 2,
+        eventPoster: '/images/events/datadrift.png',
+        registrationType: `Srijan'24 Website`,
+        eventShortDescription: `Data Drift is a four-hour event in which a single participant or a team of up to two people analyzes vehicular traffic data in real time. Subsequently the participants must work with the data to put together overviews, create a dashboard, and use an engineering mentality to critically remark on the given dataset.`,
+        eventDescription:[
+            "Traffic data analytics refers to the process of acquiring and analyzing information on traffic flow, such as car, pedestrian, and bicycle movements. Decisions about urban planning and transportation management can be based on data insights into traffic patterns, congestion, and potential safety risks. Traffic data analytics can help transportation planners and engineers optimise traffic flow, reduce congestion, and improve road safety by leveraging cutting-edge analytical tools and methodologies. The goal of the event is to use the many data analytics tools in our engineering area to leverage our skills gained over the last four years in using these tools to derive engineering conclusions."
+        ],
+        eventRules: {
+            '':[
+                "The data analysis should be measured with respect to the original dataset and can be done in any software of choice, but must be finally presented in an EXCEL file.",
+                "The graphs/dashboarding/plots must be clearly distinguishable and aesthetically appealing.",
+                "The approach in calculating the parameters must be logical, and if there are any assumptions in doing so, that must be clearly mentioned beforehand.",
+                "The inferences drawn from the data analysis must be thought of in terms of improving the traffic flow parameters.",
+                "The conclusions drawn must be insightful and justifiable in terms of the problem statement and not abstract."
+            ]
+        },
+    },
+    {
+        eventId: 'quiztopia',
+        eventName: 'Quiztopia',
+        eventDate: {
+            prelims: ['TBD'],
+            finals: 'TBD',
+        },
+        eventType: 'Quiz Competition',
+        eventHashtags: ['biztechquiz','techquiz', 'quiz'],
+        eventCoordinators: [
+            'Shrayan Mukhopadhyay [ 9748227211 ]',
+            'Sreejan Bose [ 9748877972 ]',
+        ],
+        prize: ['Exciting prizes for winners'],
+        minMembers: 1,
+        maxMembers: 3,
+        eventPoster: '/images/events/quizotopia.png',
+        registrationType: `Srijan'24 Website`,
+        eventShortDescription: `An intriguing event--where your knowledge of everything under the sun is going to be tested to the fullest extent. Business,technology and science shall remain the focal points.`,
+        eventDescription:[
+            "As the flagship quiz event of JU's techno-management fest, Quiztopia has always prided itself on the sheer quality of brainteasers put forth and the reservoir of knowledge that it rests its existence on.This year's event shall have 3 rounds--all adhering to the essence of business,technology and science.Top performing teams in the prelims shall take their place in the finals--and it promises to be a rewarding experience for all involved."
+        ],
+        eventRules: {
+            '':[
+                "The decision of the quizmasters is binding and final.",
+                "In the prelims, all ties will be settled by starred questions.",
+                "Maximum strength of 3 members per team shall be entertained.",
+                "Intra and inter college teams are welcome.",
+                "Strictly for college/university students.",
+                "On-spot registrations shall be allowed -- up to a maximum of 1 hour before the start of the quiz."
+            ]
+        },
+    },
+
+    {
+        eventId: 'flight-challenge-2024',
+        eventName: 'Flight Challenge 2024 in partnership with AIRBUS',
+        eventDate: {
+            prelims: ['Presentation submission would be live on and from 14th March'],
+            finals: 'Grand Finale to be taking place on 24th March',
+        },
+        eventType: 'brainstorming',
+        eventHashtags: ['internship','industrychallenges'],
+        eventCoordinators: [
+            'Asmit Acharya [ 9433082213 ]',
+            'Swarnamoy Chatterjee [ 9733030635 ]'
+        ],
+        prize: ['Internship Offer at AIRBUS for the Winners and Prize Pool of Rs.30,000'],
+        minMembers: 4,
+        maxMembers: 4,
+        eventPoster: '/images/events/airbus.png',
+        registrationType: `Srijan'24 Website`,
+        eventShortDescription: ` Flight Challenge 2024 is an Industry-inspired brainstorming event, where participants tackle real-world issues, devising innovative solutions for industrial challenges.`,
+        eventDescription:[
+            "Flight Challenge 2024 would be the exposure to real-time industrial circumstances for the participants.",
+            "An industry-based problem would be put up by AIRBUS.",
+            "Contestants would be a team of 3-4 who would deliberate to come to a fruitful solution to the given problem.",
+            "Respective teams have to present their solutions to AIRBUS on the given technical topic followed by a Q&A session.",
+            "The team presenting the best solution to the problem emerges victorious.",
+            "",
+            // "The Problem Statement for the Flight Challenge is as follows-",
+            // "https://drive.google.com/file/d/1aNd9SaVOUoMD34tDehop_-HfZxZQVzZR/view?usp=sharing"
+        ],
+        eventRules: {
+            '':[
+                "Aircraft Design is a multidisciplinary field, so define the scope of your interest accordingly. Local solutions are acceptable.",
+                "Make suitable assumptions regarding aircraft mission profile and loading. You are welcome to utilize open-source data, 3D models, and other tools to support your presentation.",
+                "Each group can have a maximum of 4 participants and gets a maximum of 10 minutes of presentation time followed by Q&As.",
+                "Priority would be given to students from Mechanical, Civil and Production Engineering Departments at Jadavpur University."
+            ]
+        },
+        documentLink: "https://drive.google.com/file/d/1aNd9SaVOUoMD34tDehop_-HfZxZQVzZR/view?usp=sharing"
+    },
+
+    {
+        eventId: 'snap-syntax',
+        eventName: 'SnapSyntax',
+        eventDate: {
+            prelims: ['TBD'],
+            finals: 'TBD',
+        },
+        eventType: 'coding',
+        eventHashtags: ['Coding', 'BrainStorming'],
+        eventCoordinators: [
+            'Anurag Jha [ 7044904397 ]',
+            'Aditya Mayukh Som [ 9874745176 ]', 
+            'Debabrata Mondal [ 7439901282 ]',
+        ],
+        prize: ["Exciting Prizes for Winners"],
+        minMembers: 3,
+        maxMembers: 3,
+        eventPoster: '/images/events/snapsyntax.jpeg',
+        registrationType: `Srijan'24 Website`,
+        eventShortDescription: 'Snap, Code, Conquer: Memory meets mastery in web design.',
+        eventDescription: [`Challenge memory and design skills! Recreate a web page from 
+        memory within a time limit, relying on recall. Strategic glimpses 
+        refine designs, showcasing memory prowess in this unique event. 
+        Welcome to the "Snap Syntax" where participants showcase their 
+        HTML and CSS skills by recreating a web page from memory. This 
+        event tests their ability to recall layout, elements, and design 
+        nuances without direct visual reference. As the challenge 
+        progresses, participants face intensified difficulty with 
+        intermittent glimpses of the initial web page, requiring strategic 
+        thinking and memory retention skills`],
+        eventRules: {
+            "": [
+                "Participants will begin by observing an initial web page, which they must recreate from memory using HTML and CSS.",
+                "The challenge unfolds without direct visual reference, requiring participants to rely solely on memory for layout, elements, and design nuances.",
+                "During the design process, participants will be shown the initial web page 2-3 times, intensifying the challenge and demanding strategic thinking.",
+                "The time limit for recreating the web page will be strictly enforced to add an element of urgency and test participants' ability to work efficiently."
+            ],
+        },
+    },
+
+    {
+        eventId: 'highway-to-hell',
+        eventName: 'HIGHWAY TO HELL',
+        eventDate: {
+            prelims: ['TBD'],
+            finals: 'TBD',
+        },
+        eventType: 'circuits & robotics',
+        eventHashtags: ['RoboCarChallenge','TrackMasters'],
+        eventCoordinators: [
+            'Rajobrata Dasgupta [ 7439319042 ]',
+            'Souvik Saha [ 89103 98827 ]',
+        ],
+        prize: ['Prize Pool of Rs. 2000'],
+        minMembers: 1,
+        maxMembers: 4,
+        eventPoster: '/images/events/highway.png',
+        registrationType: `Srijan'24 Website`,
+        eventShortDescription: `Gear up for the ultimate test of robotic prowess in the "RoboRally Challenge" at our upcoming college fest! In this thrilling event, participants will design and build car-type robotic vehicles to navigate a custom-made track filled with diverse terrains and obstacles.`,
+        eventDescription:[
+            "Welcome to the adrenaline-pumping world of our Robotics and Car Challenge, where innovation meets excitement! Gear up for an electrifying event that will push your engineering prowess to the limits.",
+            "In this riveting competition, participants will engineer their own car-type marvels to conquer a dynamic track. The journey begins on a smooth pavement, but get ready to tackle challenges as the track throws in sandy stretches, muddy terrains, and heart-pounding inclines. The race against time and obstacles will separate the amateurs from the true engineering champions.",
+            "But wait, it doesn't end there! Prepare for strategic deductions as points are on the line for collisions with track boundaries, rollovers during daring jumps, and navigating through inclined planes. Precision is the key, and every move counts.",
+            "To spice things up, bonus points await those who can masterfully guide their cars to send balls soaring into the air, perfectly landing them inside glass bottles strategically placed along the track. It's not just a race; it's a test of skill, creativity, and strategy.",
+            "As the dust settles from the robust qualifying round, only the top 6-7 teams will advance to the ultimate showdown in the final round. Brace yourselves for heightened challenges and an intensified difficulty level in the track. The stakes are higher, the obstacles are tougher, and only the most resilient robots will emerge victorious.",
+            "Get ready to witness the fusion of technology and thrill as participants push the boundaries of robotics in a race against time and obstacles. The Robotics and Car Challenge is not just an event; it's an experience that will fuel your passion for innovation and leave you craving for more. May the best machine win!"
+        ],
+        eventRules: {
+            'General Rules':[
+                "Each team can consist of a maximum of 5 members.",
+                "The decision of the JUSC officials is final and abiding."
+            ],
+            'Event Rules':[
+                "If a participant crosses a specific obstacle in the arena, points will be given.",
+                "Each time the participant bot touches the boundary of the arena, points will be deducted. If the bot continues to touch the boundary for more than 5 seconds, it will be considered equivalent of two touches.",
+                "The robot can be wired or wireless.",
+                "Participants will have to arrange for any other power supplies required for bot.",
+                "No receiver and transmitter will be provided to the participant.",
+                "LEGO kits or spare mechanical parts are not allowed.",
+                "Participant can skip any obstacle, up to a certain limit, although for each time, points will be deducted.",
+                "Power supply at 220 volts for the bot will be provided. (Bring additional wires of sufficient length)"
+            ],
+            'Arena':[
+                "The arena of the competition is a race track with obstacles.",
+                "The obstacles may contain uneven surfaces, sand, grease, turns, various types of slopes up to 45 degrees.",
+                "The other obstacles shall be revealed on the day of the competition.",
+                "The arena of the competition is a race track with obstacles.",
+                "The obstacles may contain uneven surfaces, sand, grease, turns, various types of slopes up to 45 degrees.",
+                "The other obstacles shall be revealed on the day of the competition."
+            ],
+            'Robot Specifications':[
+                "Maximum dimensions (lxbxh) - 40cm x 40cm x 30cm",
+                "Maximum weight - 3 kg.",
+                "Minimum width of wheels – 3 cm.",
+                "Maximum RPM of motors - 500. (Planetary Motors are not allowed)",
+                "Wireless robots will gain an extra edge over the wired ones."
+            ],
+            'Task':["Complete the arena in the least amount of time."]
+        },
+        documentLink: "https://drive.google.com/drive/folders/1twsClu6yIQYCeo1ovYfLGOqBY4V1FaaB?usp=drive_link"
+    },
+    {
+        eventId: 'jal-astra',
+        eventName: 'JAL ASTRA',
+        eventDate: {
+            prelims: ['TBD'],
+            finals: 'TBD',
+        },
+        eventType: 'misc',
+        eventHashtags: ['aerodynamics','trajectory', 'water-rockets'],
+        eventCoordinators: [
+            'Himopravo Chowdhury [ 9475974209 ]',
+            'Srija Mondal [ 8851270470 ]',
+            'Aditya Mandal [ 9748270706 ]',
+        ],
+        prize: [
+            "Winning team will receive an exciting gift hamper and an exclusive E-certificate from Stratosphere, Aerospace Club.",
+            "Top 3 teams will receive a special shout-out on the club's social media channels for their outstanding performance.",
+            "All participants will be awarded participation E-certificates from the club for their efforts."
+        ],
+        minMembers: 2,
+        maxMembers: 3,
+        eventPoster: '/images/events/jalastra.png',
+        registrationType: `Srijan'24 Website`,
+        eventShortDescription: `Design and construct a water rocket that can achieve maximum range and precise landing.`,
+        eventDescription:[
+            "Reach escape velocity with your Jal Astra",
+            "Design and construct a water rocket that can achieve maximum range and precise landing.",
+            "Consider enhancing aerodynamics and adjusting water-to-air ratio for optimal thrust.",
+            "Experiment with nozzle shapes, fins, and load distribution for improved stability during flight."
+        ],
+        eventRules: {
+            'General Rules':[
+                "Launcher will be provided to the teams.",
+                "Teams will be provided with water as fuel.",
+                "Team size is limited to a maximum of 3 members.",
+                "Teams can use a water bottle with a maximum capacity of 2L for the rocket design.",
+                "Ensure that the front part of the structure is blunt.",
+                "No metallic part should be used in making the structure.",
+                "Multi-stage rockets are allowed but in that case, the team can use a maximum of 2L water as fuel."
+            ],
+            'Round 1 - The Qualifiers':[
+                "Each team has two launch attempts. The average performance of the two attempts will be considered as the final range of the rocket.",
+                "Only the top 6 teams with the maximum average range will advance to the next stage of the competition."
+            ],
+            'Round 2 - The Finals':[
+                "Each team is allowed three launch attempts.",
+                "The maximum range among those attempts will be considered as the final range for the team.",
+                "Teams whose rocket lands within a 15° sector will get bonus points.",
+                "Teams whose rocket lands outside a 45° sector will get eliminated.",
+                "Winners will be decided based on a combination of bonus points and the travel range of their rockets."
+            ],
+            // 'Robot Specifications':[
+            //     "Maximum dimensions (lxbxh) - 40cm x 40cm x 30cm",
+            //     "Maximum weight - 3 kg.",
+            //     "Minimum width of wheels – 3 cm.",
+            //     "Maximum RPM of motors - 500. (Planetary Motors are not allowed)",
+            //     "Wireless robots will gain an extra edge over the wired ones."
+            // ],
+            'Task':["Complete the arena in the least amount of time."]
+        },
+    },
+    {
+        eventId: 'game-of-drones',
+        eventName: 'Game Of Drones',
+        eventDate: {
+            prelims: ['TBD'],
+            finals: 'TBD',
+        },
+        eventType: 'circuits & robotics',
+        eventHashtags: ['game-of-drones','drone-racing', 'water-rockets'],
+        eventCoordinators: [
+            'Abhinandan Roy [ 9903142457 ]',
+            'Rudrajit Deb [ 97480 10103 ]',
+            'Priyobroto Acharya [ 97492 27407 ]',
+        ],
+        prize: [
+            "Prize Pool of Rs. 70,000. Refer to the document."
+        ],
+        minMembers: 1,
+        maxMembers: 1,
+        eventPoster: '/images/events/gameofdrones.png',
+        registrationType: `Srijan'24 Website`,
+        eventShortDescription: `Embark on an exhilarating journey into the future of technology at Game Of Drones Spectacle! Unleash the thrill of high-speed aerial acrobatics as cutting-edge drones defy gravity in a heart-pounding race to victory.`,
+        eventDescription:[
+            "Embark on an exhilarating journey into the future of technology at Game Of Drones Spectacle! Unleash the thrill of high-speed aerial acrobatics as cutting-edge drones defy gravity in a heart-pounding race to victory. Watch skilled pilots navigate daring obstacles, showcasing precision and agility in a mesmerizing display of skill and innovation. Join us for an electrifying experience that combines the excitement of speed with the awe-inspiring spectacle of futuristic technology. Don't miss the chance to witness the fusion of adrenaline and innovation at the forefront of the drone racing revolution, at Srijan'24 – where the sky is no longer the limit!"
+        ],
+        eventRules: {
+            '':[
+                "The event will be a drone racing event. Students need to bring their racing drones and other equipment as per rules mentioned in the document."
+            ]
+        },
+        documentLink: "https://drive.google.com/file/d/1Dw4JC2Hj-sMj1WhTbDqTcq87NBgi5Aex/view"
     },
 ]
 

@@ -80,6 +80,16 @@ const page = ({ params }) => {
 
     const eventData = getEventById(events_id)
 
+    if(!eventData) 
+        return (
+            <div className='bg-gradient-to-br from-black via-sky-950 to-black text-white min-h-screen flex justify-center items-center font-body'>
+                <div className='noEventBox'>
+                    <h2>Event Not Found</h2>
+                    <p>Sorry, but we can't find the event you are looking for...</p>
+                </div>
+            </div>
+        )
+
     let teamSize = 0;
     if(eventData!==undefined){
         teamSize = eventData.maxMembers === 1 ? 'Individual'
@@ -303,7 +313,8 @@ const page = ({ params }) => {
                                 </strong> */}
                             </p>
                             <p className='text-sm md:text-base eventDesc'>
-                                Click <Link href={eventData.documentLink} className='documentLink'>here</Link> to know more about this event
+                                <Link href={eventData.documentLink} className='documentLink'>Click here</Link> 
+                                {events_id === 'flight-challenge-2024' ? ' for Problem Statement' : ' to know more about this event'}
                             </p>
                         </div>}
 
