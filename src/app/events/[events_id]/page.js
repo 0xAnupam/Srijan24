@@ -15,6 +15,9 @@ import BeatLoader from 'react-spinners/BeatLoader'
 import UserHOC from '@/hoc/UserHOC'
 import InvitationModal from '@/components/EventComponents/InvitationModal'
 import { FaWhatsapp } from 'react-icons/fa';
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" />
+
+
 
 
 const page = ({ params }) => {
@@ -163,6 +166,7 @@ const page = ({ params }) => {
         }
         setLoading(false)
     }
+    
 
     // Define mapping from names to icons
     const iconMap = {
@@ -176,21 +180,20 @@ const page = ({ params }) => {
 
 
     return (
-        <div className='bg-gradient-to-br from-black via-sky-950 to-black text-white min-h-screen flex justify-center items-center font-body'>
+        <div className='bg-gradient-to-r from-gray-950 to-gray-700 text-white min-h-screen flex justify-center items-center font-body'>
             {eventData===undefined && <div className='noEventBox'>
                     <h2>Event Not Found</h2>
                     <p>Sorry, but we can't find the event you are looking for...</p>
                 </div>}
             {eventData && <div className='container mx-auto px-4 py-8'>
-                <h1 className='text-4xl font-bold mb-6 text-center eventTitle'>
+            <h1 className='text-3xl md:text-4xl  font-bold mb-6 text-center eventTitle' style={{ fontFamily: 'Pacifico, cursive' }}>
                     <span
                         style={{
-                            backgroundClip: 'text',
-                            WebkitBackgroundClip: 'text',
-                            color: 'transparent',
-                            backgroundImage:
-                                // 'linear-gradient(to right, #87CEEB, #00BFFF)',
-                                'linear-gradient(to right, #DADCDE, #067AD5)',
+                            textTransform: 'uppercase'
+                            // backgroundClip: 'text',
+                            // WebkitBackgroundClip: 'text',
+                            // color: 'transparent',
+                            
                         }}
                     >
                         {eventData && eventData.eventName}
