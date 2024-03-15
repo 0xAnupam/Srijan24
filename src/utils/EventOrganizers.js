@@ -33,7 +33,12 @@ const EventOrganizers = [
 
     {
         eventId: 'capital-clash',
-        organizers: ['adicrown54@gmail.com', 'abirsen020402@gmail.com'],
+        organizers: [
+            'adicrown54@gmail.com',
+            'abirsen020402@gmail.com',
+            'akankchasingh20012004@gmail.com',
+            'adipto.extra47@gmail.com',
+        ],
     },
 
     {
@@ -204,7 +209,11 @@ const EventOrganizers = [
 
     {
         eventId: 'beat-the-market',
-        organizers: ['abirsen020402@gmail.com'],
+        organizers: [
+            'abirsen020402@gmail.com',
+            'akankchasingh20012004@gmail.com',
+            'adipto.extra47@gmail.com',
+        ],
     },
 
     {
@@ -320,6 +329,33 @@ const EventOrganizers = [
             'rudrajitdeb.ju.pow@gmail.com',
             'priyobrotoacharya98@gmail.com',
         ],
+    },
+
+    {
+        eventId: 'defy-the-debate',
+        organizers: [
+            'somnath2003chakraborty@gmail.com',
+            'soham21003@gmail.com',
+        ],
+    },
+
+    {
+        eventId: 'eggsplosion-24',
+        organizers: ['rumelalam7@gmail.com', 'iamhritam2002@gmail.com'],
+    },
+
+    {
+        eventId: 'sky-lens',
+        organizers: [
+            'rupam.c1404@gmail.com',
+            'souviksaha871@gmail.com',
+            'Paldebasish51@gmail.com',
+        ],
+    },
+
+    {
+        eventId: '2-minutes-to-frame',
+        organizers: ['rounakmukherjee477@gmail.com', 'sapkoley2019@gmail.com'],
     },
 ]
 

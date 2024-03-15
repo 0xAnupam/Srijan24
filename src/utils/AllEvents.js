@@ -8,6 +8,7 @@ const events = [
         },
         eventType: 'coding',
         eventHashtags: ['hackathon', 'machinelearning', 'ai', 'openaimer'],
+        registrationOpen: true,
         eventCoordinators: [
             'Rajdeep Khaskel [ 6290241875 ]',
             'Sounak Ghosh [ 8910272026 ]',
@@ -91,6 +92,7 @@ const events = [
         },
         eventType: 'brainstorming',
         eventHashtags: ['cryptography', 'treasure_hunt', 'cyber-security'],
+        registrationOpen: true,
         eventCoordinators: [
             'Trisha Samanta [ 6290676528 ]',
             'Md. Azhaan [ 8637007433 ]',
@@ -129,6 +131,7 @@ const events = [
             'stock-market',
             'case-study',
         ],
+        registrationOpen: true,
         eventCoordinators: [
             'Abir Sen [ 6290764395 ]',
             'Soumyadeep Pal [ 9007475778 ]',
@@ -163,6 +166,7 @@ const events = [
         },
         eventType: 'coding',
         eventHashtags: ['Competitive Programming', 'brainstorming'],
+        registrationOpen: true,
         eventCoordinators: [
             'Dibyabrata Panja [ 8509184415 ]',
             'Ayush Sharma [ 9874180842 ]',
@@ -202,6 +206,7 @@ const events = [
         },
         eventType: 'circuits & robotics',
         eventHashtags: ['ControlCraft', 'RoboticDomination'],
+        registrationOpen: true,
         eventCoordinators: [
             'Diptanshu Chakrabartty [ 9531681891 ]',
             'Sayan K. Sah [ 8927309046 ]',
@@ -258,6 +263,7 @@ const events = [
             'brainstorming',
             'puzzles',
         ],
+        registrationOpen: true,
         eventCoordinators: [
             'Farhan Ikbal [ 8967463602 ]',
             'Upayan De [ 9874589366 ]',
@@ -291,6 +297,7 @@ const events = [
         },
         eventType: 'coding',
         eventHashtags: ['hackathon', 'challenges'],
+        registrationOpen: true,
         eventCoordinators: [
             'Rajdeep Mallick [ 7029422038 ]',
             'Arindam Halder [ 8777712395 ]',
@@ -349,22 +356,26 @@ const events = [
         eventId: 'sherlocked',
         eventName: 'Sherlocked',
         eventDate: {
-            prelims: ['TBD'],
-            finals: 'TBD',
-            // prelims: ['20th March (8:00 pm - 9:00 pm)'],
-            // finals: '24th March (3:00 pm - 5:00 pm)',
+            prelims: ['20th March, 2024 (8:00 pm - 9:00 pm)'],
+            finals: '24th March, 2024 (3:00 pm - 5:00 pm)',
         },
         eventType: 'coding',
         eventHashtags: ['coding', 'brainstorming'],
+        registrationOpen: true,
         eventCoordinators: [
             'Anurag Jha [ 7044904397 ]',
             'Manas Pratim Biswas [ 8942981600 ]',
             'Tanmay Roy [ 8101159941 ]',
         ],
-        prize: ['Exciting prizes(TBD) for the top 3 winning teams'],
+        prize: [
+            '1st : 3,000',
+            '2nd : 2,000',
+            '3rd : 1,000',
+            'Best UG1 Beginners: Goodies',
+        ],
         minMembers: 2,
         maxMembers: 3,
-        eventPoster: '/images/events/sherlocked.jpg',
+        eventPoster: '/images/events/sherlocked.jpeg',
         registrationType: `Srijan'24 Website`,
         eventShortDescription: `Sherlocked: A thrilling coding and puzzle-solving challenge. Prelims feature 10 puzzles and 2 coding questions. Top teams advance to a multi-level 2-hour Finals for ultimate victory.`,
         eventDescription: [
@@ -390,6 +401,7 @@ const events = [
         },
         eventType: 'brainstorming',
         eventHashtags: ['brainstorming', 'matholympiad'],
+        registrationOpen: true,
         eventCoordinators: [
             'Subha Bhattacharya [ 9073701438 ]',
             'Shubhayan Ghosal  [ 9903297707 ]',
@@ -422,6 +434,7 @@ const events = [
         },
         eventType: 'misc',
         eventHashtags: ['climbing', 'Adventure'],
+        registrationOpen: true,
         eventCoordinators: [
             'Abhijeet Nona [ 6289282196 ]',
             'Aman Mahato [ 9832267430 ]',
@@ -460,6 +473,7 @@ const events = [
         },
         eventType: 'circuits & robotics',
         eventHashtags: ['robo', 'soccer', 'football', 'ball', 'robots'],
+        registrationOpen: true,
         eventCoordinators: [
             'Sukalyan Bisui [ 8697488984 ]',
             'Adipto Ghosh Dastidar [ 6290764395 ]',
@@ -523,6 +537,7 @@ const events = [
         },
         eventType: 'circuits & robotics',
         eventHashtags: ['LineFollower', 'BotRace'],
+        registrationOpen: true,
         eventCoordinators: [
             'Borno Banerjee [ 7478054233 ]',
             'Rajobrata Dasgupta [ 7439319042 ]',
@@ -554,7 +569,7 @@ const events = [
     //         prelims: ['TBD'],
     //         finals: 'TBD',
     //     },
-    //     eventType: 'Coding',
+    //     eventType: 'coding',
     //     eventHashtags: ['Coding', 'brainstorming'],
     //     eventCoordinators: [
     //         'Anurag Jha [ 7044904397 ]',
@@ -595,6 +610,7 @@ const events = [
         },
         eventType: 'misc',
         eventHashtags: ['BridgingTheGap', 'StrongestBridgeWins'],
+        registrationOpen: true,
         eventCoordinators: [
             'Aritra Show [ 9748945722 ]',
             'Rohan Banik [ 7478915161 ]',
@@ -605,7 +621,7 @@ const events = [
         maxMembers: 4,
         eventPoster: '/images/events/Birdge the Gap.png',
         registrationType: `Srijan'24 Website`,
-        eventShortDescription: `"Bridge the Gap" is a bridge modelling event where participants build a bridge model from scratch using materials such as popsicle sticks, planks, nails, glue, etc. utilising structural analysis and the fundamental load-transferring process.   Participants show team spirit as they race against time to build their structure. The bridges are scored based on a number of criteria, including their ability to support a load, economic sustainability and their aesthetic appeal.`,
+        eventShortDescription: `"Bridge the Gap" is a bridge modelling event where participants build a bridge model from scratch using materials such as popsicle sticks, planks, nails, glue, etc. utilising structural analysis and the fundamental load-transferring process. Participants show team spirit as they race against time to build their structure.`,
         eventDescription: [
             `The open web girder type bridge, centrally loaded and designed to support the highway surface, incorporates truss members as its basic structural components.
 
@@ -638,10 +654,11 @@ const events = [
         },
         eventType: 'misc',
         eventHashtags: ['photography', 'themeophotography'],
+        registrationOpen: true,
         eventCoordinators: [
-            'Debashis Mandal [ mandaldebashis48@gmail.com ]',
-            'Abhinaba Biswas [ abhinababiswas1232@gmail.com ]',
-            'Supratim Sarkar [ supratimsarkar2002@gmail.com ]',
+            'Debashis Mandal [ 83720 81033 ]',
+            'Abhinaba Biswas [ 97497 97641 ]',
+            'Supratim Sarkar [ 97492 58924 ]',
         ],
         prize: ['Prizes Pool of Rs 3000'],
         minMembers: 1,
@@ -650,12 +667,24 @@ const events = [
         registrationType: `Srijan'24 Website`,
         eventShortDescription: `It is a photography competition in which the photos will be judged on the basis of theme which will be announced during the fest.`,
         eventDescription: [
-            `Photography competition, theme based and will be judged on the basis of how much it relates with the theme.`,
+            `It is a photography competition in which the photos will be judged on the basis of a theme which will be announced during the fest. "It is an illusion that photos are made with the camera... they are made with the eye, heart, and head.”, said the pioneer of street photography, Henri-Cartier Bresson. So do not think twice about what type of device you own, as long as it is capable of capturing images. Be it a mobile camera, a point-and-shoot, a DSLR, or a mirrorless, we want to see your unique point of view and thought process captured in a frame. This event will consist of budding photographers capturing images on a certain given topic inside the campus. The top 30 images will be selected by the judge, and will be exhibited for public voting. A combination of the judge’s score and public voting will reveal the Top 3 winners.`,
+            `Create the most amazing frames and capture enthralling moments as you explore the beautiful art of photography!`,
         ],
         eventRules: {
             '': [
-                'The photo must totally be based on the given theme.',
-                'Metadata must be present for the photo submitted.',
+                'Photographs can be clicked using any device (mobile, DSLR, mirrorless, etc.)',
+                'The metadata of the photograph should be present. The absence of metadata will lead to disqualification of the entry.',
+                'The theme for the photograph will be given at 11 am on the event day. Participants will have to click relevant photos on the given theme.',
+                'All photographs must be clicked After the commencement of the event, inside Jadavpur University Salt Lake Campus.',
+                'Minimum post-processing is allowed, including cropping, color correction, conversion to grayscale, reasonable exposure/contrast adjustments, etc.',
+                'Image manipulation of any kind or the use of Artificial Intelligence is strictly prohibited. Doing so will lead to disqualification.',
+                'The photograph should not contain a watermark. Entries will not be disqualified, but a watermark will be counted as a discredit.',
+                'There will be One entry per participant. All entries must be emailed by 9 am on Day 2.',
+                'The top 30 photographs will be chosen by our judge by 4 pm on Day 2, and they will be printed and displayed in the exhibition area by the end of the day.',
+                'Each photograph will have a serial number written on it, along with a voting QR. People can vote for the best picture by scanning the QR code and typing the serial number of the picture. One person will be allowed one vote.',
+                'Voting will end at 4 pm on Day 3.',
+                `The weightage of 40% of the votes and 60% of the judges' scores will be considered when calculating the final score for the top 30 photographs.`,
+                'The top 3 winners will be selected on the basis of the total score.'
             ],
         },
     },
@@ -668,6 +697,7 @@ const events = [
         },
         eventType: 'misc',
         eventHashtags: ['reel', 'jupc'],
+        registrationOpen: true,
         eventCoordinators: [
             'Souvik Saha [ 8910398827 ]',
             'Rupam Chatterjee [ 9830642871 ]',
@@ -728,6 +758,7 @@ const events = [
         },
         eventType: 'gaming',
         eventHashtags: ['NSGArena', 'Valorant'],
+        registrationOpen: true,
         eventCoordinators: [
             'Swapnil Saha [ 9123785487 ]',
             'Spandan Ghatak [ 8981579002 ]',
@@ -759,6 +790,7 @@ const events = [
         },
         eventType: 'gaming',
         eventHashtags: ['NSGArena', 'eafc24'],
+        registrationOpen: true,
         eventCoordinators: [
             'Anurag Jha [ 7044904397 ]',
             'Debabrata Mondal [ 7439901282 ]',
@@ -790,6 +822,7 @@ const events = [
         },
         eventType: 'gaming',
         eventHashtags: ['NSGArena', 'rocketleague'],
+        registrationOpen: true,
         eventCoordinators: [
             'Arka Sikder [ 79808 05318 ]',
             'Subhadip De [ 85840 38115 ]',
@@ -821,9 +854,10 @@ const events = [
         },
         eventType: 'gaming',
         eventHashtags: ['NSGArena', 'bgmi'],
+        registrationOpen: false,
         eventCoordinators: [
             'Kingshuk Kirtania [ 70037 36262 ]',
-            'Shyambhu Chaudhuri [ 79086 13718 ]',
+            'Shyambhu Chaudhuri [ 79086 13718 (Whatsapp only) ]',
         ],
         prize: [
             '1st place, each participant will receive: Cash Prize of Rs. 2000/- and Winner Trophy and certificates.',
@@ -852,6 +886,7 @@ const events = [
         },
         eventType: 'gaming',
         eventHashtags: ['NSGArena', 'efootball', 'pes'],
+        registrationOpen: true,
         eventCoordinators: [
             'Subhranuj Podder [ 81004 64406 ]',
             'Brotin Haldar [ 79081 42783 ]',
@@ -883,12 +918,13 @@ const events = [
         },
         eventType: 'business & management',
         eventHashtags: ['entrepreneurship', 'strategy', 'marketing'],
+        registrationOpen: true,
         eventCoordinators: [
             'Anurag Dey [ 8910178240 ]',
             'Gourav Kumar Rai [ 8335965255 ]',
             'Jotiraditya Banerjee [ 6289867756 ]',
         ],
-        prize: ['Prize Pool of Rs. 3600'],
+        prize: ['Prize Pool of Rs. 4000'],
         minMembers: 1,
         maxMembers: 3,
         eventPoster: '/images/events/StratEdgeX.png',
@@ -921,6 +957,7 @@ const events = [
         },
         eventType: 'circuits & robotics',
         eventHashtags: ['battleitout', 'lordoftherings', 'whorulesthering'],
+        registrationOpen: true,
         eventCoordinators: [
             'Soumyadeep Dutta [ 9153039945 ]',
             'Sauptik Maiti [ 6290366197 ]',
@@ -969,6 +1006,7 @@ const events = [
         },
         eventType: 'gaming',
         eventHashtags: ['NSGArena', 'gaming', 'VR'],
+        registrationOpen: true,
         eventCoordinators: [
             'Debdut Hira [ 6290363929 ]',
             'Arhana Kundu [ 8017422515 ]',
@@ -997,6 +1035,7 @@ const events = [
         },
         eventType: 'business & management',
         eventHashtags: ['sustainibility', 'hvac'],
+        registrationOpen: true,
         eventCoordinators: [
             'Koustav Bhattacharjee [ 8584977088 ]',
             'Nilendu Dikshit [ 7797749574 ]',
@@ -1024,12 +1063,13 @@ const events = [
         },
         eventType: 'business & management',
         eventHashtags: ['sharktank', 'business'],
+        registrationOpen: true,
         eventCoordinators: [
             'Sohini Hazra [ 9432209101 ]',
             'Koustav Das [ 8348217647 ]',
             'Rounak Saha [ 7044450144 ]',
         ],
-        prize: ['Prize Pool of Rs. 4500'],
+        prize: ['Prize Pool of Rs. 4000'],
         minMembers: 1,
         maxMembers: 3,
         eventPoster: '/images/events/Biznez.png',
@@ -1074,6 +1114,7 @@ const events = [
         },
         eventType: 'business & management',
         eventHashtags: ['finance', 'stockmarket'],
+        registrationOpen: true,
         eventCoordinators: [
             'Adipto Ghosh Dastidar [ 6290764395 ]',
             'Akancha Singh [ 7727954915 ]',
@@ -1106,6 +1147,7 @@ const events = [
         },
         eventType: 'brainstorming',
         eventHashtags: ['wayout', 'presenceofmind'],
+        registrationOpen: true,
         eventCoordinators: [
             'Agnish Paul [ 8910499325 ]',
             'Ishani Sengupta [ 9007605835 ]',
@@ -1142,11 +1184,12 @@ const events = [
         eventId: 'rook-n-roll',
         eventName: `ROOK 'N' ROLL`,
         eventDate: {
-            prelims: ['TBD'],
-            finals: 'TBD',
+            prelims: ['16th March, 2024'],
+            finals: '23rd March, 2024',
         },
         eventType: 'brainstorming',
         eventHashtags: ['chess', 'PositionalTactics'],
+        registrationOpen: false,
         eventCoordinators: [
             'Subhranil Banerjee [ 9903006134 ]',
             'Arhana Kundu [ 8017422515 ]',
@@ -1172,6 +1215,7 @@ const events = [
                 'The penalty for an illegal move is the loss of one minute from the player’s clock.',
                 'The number of illegal moves a player may make in a game: 3',
             ],
+            'Last date of registration': ['14th March, 2024']
         },
     },
     {
@@ -1183,6 +1227,7 @@ const events = [
         },
         eventType: 'brainstorming',
         eventHashtags: ['mystery_unravel', 'SleuthSpectacle', 'Whodunit'],
+        registrationOpen: true,
         eventCoordinators: [
             'Shreyoshi De [ 8961800461 ]',
             'Shrobona De [ 9163821724 ]',
@@ -1194,7 +1239,7 @@ const events = [
         maxMembers: 1,
         eventPoster: '/images/events/ColdCase.png',
         registrationType: `Srijan'24 Website`,
-        eventShortDescription: `In the thrilling two-round mystery-solving competition Cold Case, players assume the role of investigators. When they are handed a case, they have to look over it, understand the hints, and solve it quickly and accurately, playing the detective.  Like a sleuth, participants' wits are put to the test as they go through a series of intriguing and challenging problems at each level. Like in a game, one phase will lead to the next, and eventually the player will reach a conclusion. Remember that cleverness and efficiency are the keys to winning this game.`,
+        eventShortDescription: `In the thrilling two-round mystery-solving competition Cold Case, players assume the role of investigators. When they are handed a case, they have to look over it, understand the hints, and solve it quickly and accurately, playing the detective.  Like a sleuth, participants' wits are put to the test as they go through a series of intriguing and challenging problems at each level.`,
         eventDescription: [
             'Cold Case is a two-round exciting mystery-solving event in which participants take on the role of an investigator.',
             'When given a case, they must examine it, comprehend the clues, and crack it with precision and speed.',
@@ -1221,22 +1266,21 @@ const events = [
         eventId: 'ptb',
         eventName: 'Pass The Baton',
         eventDate: {
-            prelims: ['TBD'],
-            finals: 'TBD',
-            // prelims: ['19th March (7:30 pm - 9:30 pm)'],
-            // finals: '23th March (11:30 am - 2:00 pm)',
+            prelims: ['19th March, 2024 (7:30pm - 9:30pm)'],
+            finals: '23rd March, 2024 (11:30pm - 1:30pm)',
         },
         eventType: 'coding',
         eventHashtags: ['#Coding', '#TeamEvent', '#Competitive_Programming'],
+        registrationOpen: true,
         eventCoordinators: [
             'Vikash Sangai [ 9432140409 ]',
             'Anupam Ghosh [ 7548005727 ]',
         ],
         prize: [
-            'First place – TBD',
-            'Second place – TBD',
-            'Third place – TBD',
-            'Best UG1 team – TBD',
+            '1st : 3,000',
+            '2nd : 2,000',
+            '3rd : 1,000',
+            'Best UG1 Beginners: Goodies',
         ],
         minMembers: 3,
         maxMembers: 3,
@@ -1273,8 +1317,9 @@ const events = [
             prelims: ['TBD'],
             finals: 'TBD',
         },
-        eventType: 'Designing',
+        eventType: 'misc',
         eventHashtags: ['LogoQuest', 'DesignBattle'],
+        registrationOpen: true,
         eventCoordinators: [
             'Nahir Md Nishad [ 8670509483 ]',
             'Monoshwi Bandopadhay [ 96474993252 ]',
@@ -1285,7 +1330,7 @@ const events = [
         maxMembers: 1,
         eventPoster: '/images/events/logocity.png',
         registrationType: `Srijan'24 Website`,
-        eventShortDescription: `Are your lecture notes interjected with doodles? Do you have flair of translating your ideas into images? Do you think you can identify the most elusive logos whenever you see them? Wait no more!  Srijan 2024 brings to you Logocity - where participants fire up their artistic geniuses and channel their aesthetic senses to craft the most impressive brand identities. Do you think you can capture your viewers with mere strokes of your pen? Then what are you waiting for? "Just do it!"`,
+        eventShortDescription: `Are your lecture notes interjected with doodles? Do you have flair of translating your ideas into images? Do you think you can identify the most elusive logos whenever you see them? Wait no more!  Srijan 2024 brings to you Logocity - where participants fire up their artistic geniuses and channel their aesthetic senses to craft the most impressive brand identities.`,
         eventDescription: [
             'Basically, this event has two stages, the first one will be a design submission round where the participants will be given a set of questions and criteria of design according to which they will be designing logos and after submission the panel of judges will be grading them accordingly. According to their score, the participants will progress to the next and final round which will be a quiz round where we will be asking them question and according to their answers the winners will be decided. The first round will be an online round whereas the final round will be in offline mode. The designing of the participants will be judged by their relevance, versatility, adherance and the aesthetic. ',
         ],
@@ -1305,8 +1350,9 @@ const events = [
             prelims: ['TBD'],
             finals: 'TBD',
         },
-        eventType: 'Business & Management',
+        eventType: 'business & management',
         eventHashtags: ['Case_Study', 'Problem_Solving'],
+        registrationOpen: true,
         eventCoordinators: [
             'Piyush Gupta [ 7439484942 ]',
             'Raktim Banerjee [ 9569584047 ]',
@@ -1354,8 +1400,9 @@ const events = [
             prelims: ['TBD'],
             finals: 'TBD',
         },
-        eventType: 'Art and Culture',
+        eventType: 'misc',
         eventHashtags: ['rapbattle', 'beatbox'],
+        registrationOpen: true,
         eventCoordinators: [
             'Sauptik maiti [ 6290366197 ]',
             'Sayandeep Pramanik [ 7872639252 ]',
@@ -1418,6 +1465,7 @@ const events = [
         },
         eventType: 'misc',
         eventHashtags: ['srijan_24', 'tech_enthusiasts_assemble'],
+        registrationOpen: true,
         eventCoordinators: [
             'Dipan Mandal [ 8250821406 ]',
             'Anushka Tewari [ 9348121371 ]',
@@ -1453,20 +1501,21 @@ const events = [
         eventId: 'data-drive',
         eventName: 'Data Drift',
         eventDate: {
-            prelims: ['TBD'],
-            finals: 'TBD',
+            // prelims: ['TBD'],
+            finals: '23rd March, 2024',
         },
-        eventType: 'Data Analytics',
+        eventType: 'misc',
         eventHashtags: ['TrafficInsights', 'SmartMobilityAnalytics'],
+        registrationOpen: true,
         eventCoordinators: [
             'Sudipta Dutta [ 9641141392 ]',
             'Gaurav Bose [ 8017469943 ]',
             'Shrobona De [ 9163821724 ]',
         ],
-        prize: ['Prize pool of Rs. 2000'],
+        prize: ['Prize pool of Rs. 3,000'],
         minMembers: 1,
         maxMembers: 2,
-        eventPoster: '/images/events/datadrift.png',
+        eventPoster: '/images/events/datadrift.jpeg',
         registrationType: `Srijan'24 Website`,
         eventShortDescription: `Data Drift is a four-hour event in which a single participant or a team of up to two people analyzes vehicular traffic data in real time. Subsequently the participants must work with the data to put together overviews, create a dashboard, and use an engineering mentality to critically remark on the given dataset.`,
         eventDescription:[
@@ -1489,8 +1538,9 @@ const events = [
             prelims: ['TBD'],
             finals: 'TBD',
         },
-        eventType: 'Quiz Competition',
+        eventType: 'misc',
         eventHashtags: ['biztechquiz','techquiz', 'quiz'],
+        registrationOpen: true,
         eventCoordinators: [
             'Shrayan Mukhopadhyay [ 9748227211 ]',
             'Sreejan Bose [ 9748877972 ]',
@@ -1520,11 +1570,12 @@ const events = [
         eventId: 'flight-challenge-2024',
         eventName: 'Flight Challenge 2024 in partnership with AIRBUS',
         eventDate: {
-            prelims: ['Presentation submission would be live on and from 14th March'],
+            prelims: ['Presentation submission would be live on and from 14th March, 2024 till 17th March, 2024'],
             finals: 'Grand Finale to be taking place on 24th March',
         },
         eventType: 'brainstorming',
         eventHashtags: ['internship','industrychallenges'],
+        registrationOpen: true,
         eventCoordinators: [
             'Asmit Acharya [ 9433082213 ]',
             'Swarnamoy Chatterjee [ 9733030635 ]'
@@ -1538,7 +1589,7 @@ const events = [
         eventDescription:[
             "Flight Challenge 2024 would be the exposure to real-time industrial circumstances for the participants.",
             "An industry-based problem would be put up by AIRBUS.",
-            "Contestants would be a team of 3-4 who would deliberate to come to a fruitful solution to the given problem.",
+            "Contestants would be a team of 4 who would deliberate to come to a fruitful solution to the given problem.",
             "Respective teams have to present their solutions to AIRBUS on the given technical topic followed by a Q&A session.",
             "The team presenting the best solution to the problem emerges victorious.",
             "",
@@ -1553,7 +1604,8 @@ const events = [
                 "Priority would be given to students from Mechanical, Civil and Production Engineering Departments at Jadavpur University."
             ]
         },
-        documentLink: "https://drive.google.com/file/d/1aNd9SaVOUoMD34tDehop_-HfZxZQVzZR/view?usp=sharing"
+        documentLink: "https://drive.google.com/file/d/1aNd9SaVOUoMD34tDehop_-HfZxZQVzZR/view?usp=sharing",
+        ideaSubmissionLink: "https://forms.gle/ge5P1H9LptpgVjxH8",
     },
 
     {
@@ -1565,6 +1617,7 @@ const events = [
         },
         eventType: 'coding',
         eventHashtags: ['Coding', 'BrainStorming'],
+        registrationOpen: true,
         eventCoordinators: [
             'Anurag Jha [ 7044904397 ]',
             'Aditya Mayukh Som [ 9874745176 ]', 
@@ -1594,6 +1647,7 @@ const events = [
                 "The time limit for recreating the web page will be strictly enforced to add an element of urgency and test participants' ability to work efficiently."
             ],
         },
+        documentLink: "https://drive.google.com/file/d/1lMV-u-8utteYa6hkXBLKL6aVWfC16C9_/view?usp=sharing"
     },
 
     {
@@ -1605,6 +1659,7 @@ const events = [
         },
         eventType: 'circuits & robotics',
         eventHashtags: ['RoboCarChallenge','TrackMasters'],
+        registrationOpen: true,
         eventCoordinators: [
             'Rajobrata Dasgupta [ 7439319042 ]',
             'Souvik Saha [ 89103 98827 ]',
@@ -1666,6 +1721,7 @@ const events = [
         },
         eventType: 'misc',
         eventHashtags: ['aerodynamics','trajectory', 'water-rockets'],
+        registrationOpen: true,
         eventCoordinators: [
             'Himopravo Chowdhury [ 9475974209 ]',
             'Srija Mondal [ 8851270470 ]',
@@ -1722,21 +1778,27 @@ const events = [
         eventId: 'game-of-drones',
         eventName: 'Game Of Drones',
         eventDate: {
-            prelims: ['TBD'],
-            finals: 'TBD',
+            trial: ['23rd March, 2024'],
+            heatAndFinals: '24th March, 2024',
         },
         eventType: 'circuits & robotics',
         eventHashtags: ['game-of-drones','drone-racing', 'water-rockets'],
+        registrationOpen: true,
         eventCoordinators: [
             'Abhinandan Roy [ 9903142457 ]',
             'Rudrajit Deb [ 97480 10103 ]',
             'Priyobroto Acharya [ 97492 27407 ]',
         ],
         prize: [
-            "Prize Pool of Rs. 70,000. Refer to the document."
+            '1st: 25,000',
+            '2nd: 20,000',
+            '3rd: 15,000',
+            '4th: 6,000',
+            '5th: 4,000',
+            'Medals and certificates for all top 10 performers',
         ],
         minMembers: 1,
-        maxMembers: 1,
+        maxMembers: 5,
         eventPoster: '/images/events/gameofdrones.png',
         registrationType: `Srijan'24 Website`,
         eventShortDescription: `Embark on an exhilarating journey into the future of technology at Game Of Drones Spectacle! Unleash the thrill of high-speed aerial acrobatics as cutting-edge drones defy gravity in a heart-pounding race to victory.`,
@@ -1746,9 +1808,166 @@ const events = [
         eventRules: {
             '':[
                 "The event will be a drone racing event. Students need to bring their racing drones and other equipment as per rules mentioned in the document."
+            ],
+            'Venue': ['Football ground']
+        },
+        documentLink: "https://drive.google.com/file/d/1PumVzRyk1KhBV4uew-4dmaCQOq39yBpo/view?usp=drivesdk"
+    },
+
+    {
+        eventId: 'defy-the-debate',
+        eventName: 'Defy the Debate',
+        eventDate: {
+            prelims: ['TBD'],
+            finals: 'TBD',
+        },
+        eventType: 'misc',
+        eventHashtags: ['defytodefine', 'speaknow'],
+        registrationOpen: true,
+        eventCoordinators: [
+            'Somnath Chakraborty [ 9832936036 ]',
+            'Soham Das [ 8240885374 ]',
+        ],
+        prize: [
+            "Exciting Prizes for winners"
+        ],
+        minMembers: 2,
+        maxMembers: 2,
+        eventPoster: '/images/events/debate.png',
+        registrationType: `Srijan'24 Website`,
+        eventShortDescription: 'Just-defy is a trilingual debate showdown with participants taking on their counterparts defending the fortress of their own opinions and decrepations to furnish a pioneering solution.',
+        eventDescription:[
+            "Defy the Debate will be a Lincoln-Douglas type Oxford Debate held in collaboration with Jadavpur University Debating Society at Srijan'24.",
+            "The Oxford-style debate format involves a debate on a predetermined statement – also called a “motion” – from two opposing perspectives.",
+            "The two sides either argue “for” or “against” the motion within a formalized structure.",
+            "The Open to Debate debate series favors the Oxford-style format because both sides have an equal opportunity to share their arguments and opinions.",
+            "This promotes intellectual diversity and curates thought-provoking discussions that inform, and sometimes sway, the audience.",
+            "So, are you ready to Reason, Retort and Resolve!!!"
+        ],
+        eventRules: {
+            '':[
+                "Each team would consist of two participants would be given a topic 24 hours ago for the Prelims and 12 hours before the Final round with team fixtures.",
+                "Eight teams would qualify for the Final round and the debate will be held in Lincoln-Douglas format (participants would be allotted alternate speaking time in favor or in opposition to the topic).",
+                "Each speaker would get 2+1 minute to speak (1 minute for rebuttals)."
             ]
         },
-        documentLink: "https://drive.google.com/file/d/1Dw4JC2Hj-sMj1WhTbDqTcq87NBgi5Aex/view"
+    },
+
+    {
+        eventId: 'eggsplosion-24',
+        eventName: 'Eggsplosion',
+        eventDate: {
+            prelims: ['TBD'],
+            finals: 'TBD',
+        },
+        eventType: 'brainstorming',
+        eventHashtags: ['engineering', 'eggsplosion'],
+        registrationOpen: true,
+        eventCoordinators: [
+            'Rumel Alam [ 8240998026 ]',
+            'Hritam Sarkar [ 8777262351 ]',
+        ],
+        prize: [
+            "Prize Pool of Rs. 2000"
+        ],
+        minMembers: 3,
+        maxMembers: 4,
+        eventPoster: '/images/events/eggplosion.png',
+        registrationType: `Srijan'24 Website`,
+        eventShortDescription: `Construction of a parachute like contrapment to provide a soft landing ultimately preventing the egg from cracking. `,
+        eventDescription:[
+            "Construction of a parachute like contrapment to provide a soft landing ultimately preventing the egg from cracking. Points will be based on durability, innovation and ease of construction."
+        ],
+        eventRules: {
+            '':[
+                "Final materials to be provided by us.",
+                "The decision will be made on the basis of weight.",
+                "Decision of the jury is final."
+            ]
+        },
+    },
+
+    {
+        eventId: '2-minutes-to-frame',
+        eventName: '2 Minutes to Frame',
+        eventDate: {
+            prelims: ['TBD'],
+            finals: 'TBD',
+        },
+        eventType: 'misc',
+        // eventHashtags: ['engineering', 'eggsplosion'],
+        registrationOpen: true,
+        eventCoordinators: [
+            'Rounak Mukherjee [ 7439454364 ]',
+            'Saptarshi Koley [ 8617322403 ]',
+        ],
+        prize: [
+            "Exciting Prizes for the winners."
+        ],
+        minMembers: 1,
+        maxMembers: 4,
+        eventPoster: '/images/events/2minutes_to_frame.png',
+        registrationType: `Srijan'24 Website`,
+        eventShortDescription: `Welcome to the vibrant stage of our talent extravaganza! Here, performers have a strict 2-minute window to showcase their skills, be it solo or in groups. Creativity knows no bounds, but remember, all acts must steer clear of offensive content. Planning something technically intricate? Just give us a heads-up! And remember, judges' rulings are the last word. Let the show begin!`,
+        eventDescription:[
+            "Welcome to the vibrant stage of our talent extravaganza! Here, performers have a strict 2-minute window to showcase their skills, be it solo or in groups. Creativity knows no bounds, but remember, all acts must steer clear of offensive content. Planning something technically intricate? Just give us a heads-up! And remember, judges' rulings are the last word. Let the show begin!"
+        ],
+        eventRules: {
+            '':[
+                "Each participant has a strict time limit of 2 minutes for their performance, exceeding which will draw penalties. ",
+                "Performances can be single or in group.",
+                "All performances should be free from offensive or inappropriate content.",
+                "Participants must inform organizers in advance if their performance requires specific technical requirements, which will be provided if available.",
+                "Judges' decisions are final."
+            ]
+        },
+    },
+
+    {
+        eventId: 'sky-lens',
+        eventName: 'Sky Lens',
+        eventDate: {
+            prelims: ['TBD'],
+            finals: 'TBD',
+        },
+        eventType: 'misc',
+        registrationOpen: true,
+        eventCoordinators: [
+            'Rupam [ 9830642871 ]',
+            'Souvik Saha [ 8910398827 ]',
+            'Debasish Pal [ 9749493061 ]',
+        ],
+        prize: [
+            "1st: 4,000",
+            "2nd: 3,000",
+            "3rd: 2,000",
+        ],
+        minMembers: 1,
+        maxMembers: 3,
+        eventPoster: '/images/events/skylens.jpeg',
+        registrationType: `Srijan'24 Website`,
+        eventShortDescription: `Dive into the boundless skies with 'Skylens' – an enchanting rendezvous of drone photography at Srijan'24, Jadavpur University's pulsating techno-management fest. Embark on a voyage of ingenuity and vision as we redefine the art of aerial imagery. Elevate your perspective and capture the ethereal beauty above!`,
+        eventDescription:[
+            "Dive into the boundless skies with 'Skylens' – an enchanting rendezvous of drone photography at Srijan'24, Jadavpur University's pulsating techno-management fest. Embark on a voyage of ingenuity and vision as we redefine the art of aerial imagery. Elevate your perspective and capture the ethereal beauty above!"
+        ],
+        eventRules: {
+            'Criteria':[
+                "Photographs can be clicked using any drone.",
+                "Metadata of the photograph should be present. Absence of metadata will lead to disqualification of the entry.",
+                "The theme for the photograph is Open.",
+                "Minimum post-processing is allowed, including cropping, colour correction conversion to grayscale, reasonable exposure/contrast adjustments, etc.",
+                "Image manipulation of any kind, or use of Artificial Intelligence is strictly prohibited. Doing so will lead to disqualification.",
+                "The photograph should not contain a watermark. Entries will not be disqualified, but a watermark will be counted as a discredit.",
+                "There will be THREE entry per participant. All entries must be emailed by 9 AM of Day 2."
+            ], 
+            "Judging Scheme":[
+                "Top 30 photographs will be chosen by our judge by 4 pm of Day 2, and they will be printed and displayed in the exhibition area by end of day.",
+                "Each photograph will have a serial number written on it, along with a voting QR. People can vote for the best picture by scanning the QR code and typing the serial number of the picture. One person will be allowed one vote.",
+                "Voting will end on 4 PM of Day 3.",
+                "Weightage of 40% of votes and 60% of judges score will be considered when calculating the final score for the top 30 photographs.",
+                "Top 3 winners will be awarded a prize money on the basis of total score."
+            ]
+        },
     },
 ]
 

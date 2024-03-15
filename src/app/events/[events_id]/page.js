@@ -234,6 +234,22 @@ const page = ({ params }) => {
                                     {eventData.eventDate.finals}
                                 </p>
                             </div>}
+
+                            {eventData && eventData.eventDate && eventData.eventDate.trial && <div className='flex items-center mb-4'>
+                                <BsCalendar className='mr-2' />
+                                <p>
+                                    <strong>Event Date (Trial):</strong>{' '}
+                                    {eventData.eventDate.trial.join(', ')}
+                                </p>
+                            </div>}
+                            {eventData && eventData.eventDate && eventData.eventDate.heatAndFinals && <div className='flex items-center mb-4'>
+                                <BsCalendar className='mr-2' />
+                                <p>
+                                    <strong>Event Date (Heat and Finals):</strong>{' '}
+                                    {eventData.eventDate.heatAndFinals}
+                                </p>
+                            </div>}
+
                             <div className='flex items-center mb-4'>
                                 <BsPeople className='mr-2' />
                                 <p>
@@ -318,6 +334,18 @@ const page = ({ params }) => {
                             </p>
                         </div>}
 
+                        {eventData && eventData.ideaSubmissionLink && <div className='flex flex-col p-3 shadow-2xl '>
+                            <p className='mb-2'>
+                                {/* <strong className='text-lg md:text-xl'>
+                                    Event Description:
+                                </strong> */}
+                            </p>
+                            <p className='text-sm md:text-base eventDesc'>
+                                <Link href={eventData.ideaSubmissionLink} className='documentLink'>Click here</Link> 
+                                {' '}to submit your idea.
+                            </p>
+                        </div>}
+
                              
 
                         {eventData && eventData.websiteLink && <div className='flex flex-col p-3 shadow-2xl '>
@@ -366,73 +394,90 @@ const page = ({ params }) => {
 
 
 
-         
-                {user ? (
-                    user && profileUpdated ? (
-                        <div className='mt-4 flex justify-center registerNowButton'>
-                            {!eventData.unstopRegistrationLink && <button
+                {eventData && !eventData.registrationOpen ? 
+                    (<div className='mt-4 flex justify-center'>
+                        {user && eventStatus === 'registered' ? 
+                            (<button
                                 className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded glow-on-hover'
-                                onClick={handleRegister} // toggleModal
+                                onClick={handleRegister}
                             >
-                                {registerButton}
-                            </button>}
-                            {eventData.unstopRegistrationLink && 
+                                Registered
+                            </button>) : 
+                            (<div
+                                className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded glow-on-hover'
+                            >
+                                Registration closed
+                            </div>)
+                        }
+                    </div>) :
+                    (user ? (
+                        user && profileUpdated ? (
+                            <div className='mt-4 flex justify-center registerNowButton'>
+                                {!eventData.unstopRegistrationLink && <button
+                                    className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded glow-on-hover'
+                                    onClick={handleRegister} // toggleModal
+                                >
+                                    {registerButton}
+                                </button>}
+                                {eventData.unstopRegistrationLink && 
+                                    <Link
+                                        className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded glow-on-hover registerUnstopButton'
+                                        href={eventData.unstopRegistrationLink}
+                                    >
+                                        Register on Unstop
+                                    </Link>
+                                }
+
+                                {eventStatus === 'not registered' && (
+                                    <button
+                                        className='bg-[#000032]
+                            hover:bg-blue-700 text-white font-bold py-2 px-4 rounded glow-on-hover ml-4'
+                                        onClick={handleWatchList}
+                                    >
+                                        {loading ? (
+                                            <BeatLoader color='#ffffff' />
+                                        ) : (
+                                            watchlistButton
+                                        )}
+                                    </button>
+                                )}
+                            </div>
+                        ) : (
+                            <div className='mt-4 flex justify-center'>
                                 <Link
-                                    className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded glow-on-hover registerUnstopButton'
-                                    href={eventData.unstopRegistrationLink}
+                                    className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded glow-on-hover'
+                                    href='/profile'
                                 >
-                                    Register on Unstop
+                                    Update profile to register
                                 </Link>
-                            }
 
-                            {eventStatus === 'not registered' && (
-                                <button
-                                    className='bg-[#000032]
-                         hover:bg-blue-700 text-white font-bold py-2 px-4 rounded glow-on-hover ml-4'
-                                    onClick={handleWatchList}
+                                {eventStatus === 'not registered' && (
+                                    <button
+                                        className='bg-[#000032]
+                            hover:bg-blue-700 text-white font-bold py-2 px-4 rounded glow-on-hover ml-4'
+                                        onClick={handleWatchList}
+                                    >
+                                        {loading ? (
+                                            <BeatLoader color='#ffffff' />
+                                        ) : (
+                                            watchlistButton
+                                        )}
+                                    </button>
+                                )}
+                            </div>
+                        )
+                        ) : (
+                            <div className='mt-4 flex justify-center'>
+                                <Link
+                                    className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded glow-on-hover'
+                                    href='/login'
                                 >
-                                    {loading ? (
-                                        <BeatLoader color='#ffffff' />
-                                    ) : (
-                                        watchlistButton
-                                    )}
-                                </button>
-                            )}
-                        </div>
-                    ) : (
-                        <div className='mt-4 flex justify-center'>
-                            <Link
-                                className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded glow-on-hover'
-                                href='/profile'
-                            >
-                                Update profile to register
-                            </Link>
-
-                            {eventStatus === 'not registered' && (
-                                <button
-                                    className='bg-[#000032]
-                         hover:bg-blue-700 text-white font-bold py-2 px-4 rounded glow-on-hover ml-4'
-                                    onClick={handleWatchList}
-                                >
-                                    {loading ? (
-                                        <BeatLoader color='#ffffff' />
-                                    ) : (
-                                        watchlistButton
-                                    )}
-                                </button>
-                            )}
-                        </div>
+                                    Log in to register
+                                </Link>
+                            </div>
+                        )
                     )
-                ) : (
-                    <div className='mt-4 flex justify-center'>
-                        <Link
-                            className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded glow-on-hover'
-                            href='/login'
-                        >
-                            Log in to register
-                        </Link>
-                    </div>
-                )}
+                }
                 <Modal
                     isOpen={isModalOpen}
                     onClose={toggleModal}
